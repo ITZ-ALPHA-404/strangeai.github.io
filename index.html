@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strange AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Deep Black */
+            text-align: center;
+            color: #FFFFFF; /* White */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px; /* Adjust the max-width as needed */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #222; /* Dark Gray */
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column; /* Display elements in a column layout */
+            justify-content: space-between; /* Vertically space elements evenly */
+            min-height: 100vh; /* Make the container at least the height of the viewport */
+        }
+
+        h1 {
+            color: #FFD700; /* Yellow */
+        }
+
+        p {
+            color: #FF4500; /* Red-Orange */
+        }
+
+        button {
+            background-color: #FF4500; /* Red-Orange */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #FF6347; /* Slightly lighter red */
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Add Author's Name Styling */
+        .author-name {
+            text-align: left;
+            color: #FFD700; /* Yellow */
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Increase the height of the response area */
+        #response {
+            background-color: #333; /* Dark Gray */
+            color: #FFFFFF; /* White */
+            padding: 10px;
+            border-radius: 3px;
+            min-height: calc(100% - 200px); /* Adjust the height as needed */
+            overflow-y: auto; /* Add scrollbars if needed */
+        }
+
+        /* Move the question input area to the bottom */
+        .question-area {
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Author's Name -->
+        <div class="author-name">
+            Author: AKASH STRANGE
+        </div>
+
+        <h1>Strange AI</h1>
+        <div id="response"></div>
+
+        <div class="question-area">
+            <input type="text" id="user-input" placeholder="Your question...">
+            <br><br>
+            <button id="ask-button">Ask</button>
+        </div>
+    </div>
+
+    <script>
+        // ... (Your existing JavaScript code)
+    </script>
+</body>
+</html>
